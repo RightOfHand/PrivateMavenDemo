@@ -1,0 +1,25 @@
+apply plugin: 'maven'
+def MAVEN_HOST='http://127.0.0.1:8081//repository/maven-releases/'
+def NEXUS_NAME='admin'
+def NEXUS_PASSWORD='admin123'
+def VERSION_NAME='0.1.1'
+def ARTIFACT_ID='tagview'
+def GROUP_ID='com.songy.tagview'
+def TYPE='aar'
+
+
+uploadArchives{
+    repositories {
+        mavenDeployer {
+            repository(url: MAVEN_HOST) {
+                authentication(userName: NEXUS_NAME, password: NEXUS_PASSWORD)
+            }
+            pom.project {
+                version VERSION_NAME
+                artifactId ARTIFACT_ID
+                groupId GROUP_ID
+                description 'Device for Android'
+            }
+        }
+    }
+}
