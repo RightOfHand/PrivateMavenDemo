@@ -1,5 +1,5 @@
 apply plugin: 'maven'
-def VERSION_NAME='0.1.4'
+def VERSION_NAME='0.1.0'
 def ARTIFACT_ID='tool'
 def GROUP_ID='com.songy.tool'
 def TYPE='aar'
