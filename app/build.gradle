@@ -1,11 +1,11 @@
 apply plugin: 'com.android.application'
 android {
-    compileSdkVersion 28
-    buildToolsVersion '28.0.2'
+    compileSdkVersion Integer.valueOf(compile_sdk_version)
+    buildToolsVersion build_tools_version
     defaultConfig {
         applicationId "app.songy.com.privatemaven"
-        minSdkVersion 21
-        targetSdkVersion 28
+        minSdkVersion Integer.valueOf(min_sdk_version)
+        targetSdkVersion Integer.valueOf(target_sdk_version)
         versionCode 1
         versionName "1.0"
         testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
@@ -27,3 +27,9 @@ dependencies {
     androidTestImplementation 'com.android.support.test.espresso:espresso-core:3.0.2'
     implementation 'com.songy.tagview:tagview:0.1.1'
 }
+
+
+
+
+
+
