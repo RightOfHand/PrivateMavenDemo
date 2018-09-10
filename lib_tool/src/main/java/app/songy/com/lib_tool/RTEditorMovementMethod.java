@@ -15,8 +15,9 @@ import android.view.MotionEvent;
 import android.widget.TextView;
 
 /**
- * Created by Administrator on 2016/10/28.
- * Copyright © 2016年 AXD. All rights reserved.
+ *Description:
+ *creator: song
+ *Date: 2018/9/10 下午3:12
  */
 public class RTEditorMovementMethod extends ArrowKeyMovementMethod {
 

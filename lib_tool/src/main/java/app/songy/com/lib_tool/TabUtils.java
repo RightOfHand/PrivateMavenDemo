@@ -9,8 +9,9 @@ import android.widget.LinearLayout;
 import java.lang.reflect.Field;
 
 /**
- * Created by Sy on 2017/05/08.
- * Copyright © 2016年 AXD. All rights reserved.
+ *Description:
+ *creator: song
+ *Date: 2018/9/10 下午3:53
  */
 
 public class TabUtils {

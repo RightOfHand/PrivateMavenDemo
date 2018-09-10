@@ -29,3 +29,8 @@ task clean(type: Delete) {
 }
 
 
+task hello{
+    doLast{
+        print('hello word!')
+    }
+}

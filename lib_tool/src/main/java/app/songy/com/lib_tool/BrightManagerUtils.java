@@ -7,8 +7,9 @@ import android.provider.Settings;
 import android.view.WindowManager;
 
 /**
- * Created by Administrator on 2016/11/28.
- * Copyright © 2016年 AXD. All rights reserved.
+ *Description:
+ *creator: song
+ *Date: 2018/9/10 下午3:51
  */
 public class BrightManagerUtils {
 

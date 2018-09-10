@@ -6,7 +6,9 @@ import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
 /**
- * @author Created by diaowj on 2015/7/15.
+ *Description:
+ *creator: song
+ *Date: 2018/9/10 下午3:55
  */
 public class Validator {
 

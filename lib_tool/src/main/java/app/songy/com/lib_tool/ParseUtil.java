@@ -5,7 +5,9 @@ import android.util.Log;
 import java.text.DecimalFormat;
 
 /**
- * Created by JasonDing on 15/12/1.
+ *Description:
+ *creator: song
+ *Date: 2018/9/10 下午3:41
  */
 public class ParseUtil {
 

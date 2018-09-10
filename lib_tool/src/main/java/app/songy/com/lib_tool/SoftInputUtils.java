@@ -5,7 +5,9 @@ import android.content.Context;
 import android.view.inputmethod.InputMethodManager;
 
 /**
- * Created by Administrator on 2017/07/26.
+ *Description:
+ *creator: song
+ *Date: 2018/9/10 下午3:52
  */
 
 public class SoftInputUtils {

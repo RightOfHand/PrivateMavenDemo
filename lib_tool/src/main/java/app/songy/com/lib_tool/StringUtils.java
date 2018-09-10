@@ -6,7 +6,9 @@ import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
 /**
- * Created by Administrator on 2015/12/26.
+ *Description:
+ *creator: song
+ *Date: 2018/9/10 下午3:53
  */
 public class StringUtils{
     public static boolean isNotEmpty(String str) {

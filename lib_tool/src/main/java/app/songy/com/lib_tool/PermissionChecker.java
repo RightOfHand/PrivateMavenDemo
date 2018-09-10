@@ -5,8 +5,9 @@ import android.content.pm.PackageManager;
 import android.support.v4.content.ContextCompat;
 
 /**
- * Created by Administrator on 2016/11/24.
- * Copyright © 2016年 AXD. All rights reserved.
+ *Description:
+ *creator: song
+ *Date: 2018/9/10 下午3:32
  */
 public class PermissionChecker {
     private final Context mcontext;
