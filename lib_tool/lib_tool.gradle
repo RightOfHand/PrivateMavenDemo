@@ -1,7 +1,7 @@
 apply plugin: 'maven'
 def VERSION_NAME='0.1.5'
 def ARTIFACT_ID='tagview'
-def GROUP_ID='com.songy.tagview'
+def GROUP_ID='com.songy.tool'
 def TYPE='aar'
 
 
