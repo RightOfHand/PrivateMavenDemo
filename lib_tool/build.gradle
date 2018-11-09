@@ -32,4 +32,4 @@ dependencies {
     androidTestImplementation 'com.android.support.test.espresso:espresso-core:3.0.2'
 }
 
-apply from:"./lib_tool.gradle"
+//apply from:"./lib_tool.gradle"

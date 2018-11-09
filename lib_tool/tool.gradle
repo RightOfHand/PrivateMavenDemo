@@ -1,0 +1,42 @@
+apply plugin: 'maven'
+
+//def coreAarFile = file('libs/react-native-0.56.0-sources.jar')
+//
+//
+//
+//
+//artifacts {
+//    archives coreAarFile
+//}
+
+task androidJavadocs(type: Javadoc) {
+    source = android.sourceSets.main.java.srcDirs
+    classpath += project.files(android.getBootClasspath().join(File.pathSeparator))
+}
+
+
+task androidSourcesJar(type: Jar) {
+    classifier = 'sources'
+    from android.sourceSets.main.java.srcDirs
+}
+
+artifacts {
+    archives androidSourcesJar
+}
+uploadArchives {
+    repositories {
+        configuration = configurations.archives
+        mavenDeployer {
+            repository(url: MAVEN_HOST) {
+                authentication(userName: NEXUS_NAME, password: NEXUS_PASSWORD)
+            }
+            pom.project {
+                version '0.56.0'
+                artifactId 'react'
+                groupId 'com.songy.react'
+                packaging 'jar'
+                description 'react-native-0.56.0 for Android'
+            }
+        }
+    }
+}
